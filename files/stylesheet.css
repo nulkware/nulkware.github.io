@@ -1,0 +1,49 @@
+body {
+		background-color: black;
+		font-family: 'Inconsolata', monospace;
+}
+
+h1, h4 {
+		color: white;
+		transition: text-shadow 0.5s
+}
+
+button {
+	transition: text-shadow 1.5s;
+}
+
+h1:hover {
+    text-shadow: 2px 2px 4px white;
+}
+
+h4:hover {
+  	text-shadow: 2px 2px 4px white;
+}
+
+img {
+		position: fixed;
+		opacity: 0.2;
+		transition: opacity 5s;
+}
+
+img:hover {
+		opacity: 0.4;
+}
+
+button {
+	position: absolute;
+	top: 25px;
+	left: 350px;
+	font-size: 20px;
+	font-family: 'Source Code Pro', monospace;
+	color: white;
+	background-color: #000000;
+	border-color: white;
+	transition: background-color 0.42s, color 0.42s;
+}
+
+button:hover {
+	text-shadow: 2px 2px 4px white;
+	background-color: white;
+	color: black;
+}
